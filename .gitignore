@@ -15,8 +15,8 @@ yarn-error.log*
 pnpm-debug.log*
 
 tmp/
+demo-capture/
 backups/
 *.tsbuildinfo
 .DS_Store
 Thumbs.db
-

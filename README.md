@@ -4,6 +4,12 @@ Web Palace is a thought experiment where you turn your notes into Visually aesth
 
 The template includes three project-local Codex skills that can turn structured notes or documents into teaching-first visual websites, register those websites in the brain, and independently review the result.
 
+## See it in action
+
+[![Web Palace walkthrough showing the brain, index, Add Node controls, a palace node, and the return journey](docs/assets/web-palace-demo.gif)](docs/assets/web-palace-demo.mp4)
+
+Select the preview to open the full-resolution walkthrough.
+
 ## What is included
 
 - animated brain with deterministic node placement;
@@ -154,4 +160,3 @@ Select **Use this template** on GitHub, create a new repository, clone it, and f
 ## Licence
 
 MIT. See [LICENSE](LICENSE).
-
