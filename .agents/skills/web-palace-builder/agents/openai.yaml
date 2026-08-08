@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web Palace Builder"
+  short_description: "Build teaching-first Web Palace websites"
+  default_prompt: "Use $web-palace-builder to implement this approved Web Palace specification as a clear, guided teaching experience."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web Palace Architect"
+  short_description: "Architect source-grounded teaching experiences"
+  default_prompt: "Use $web-palace-architect to turn my source material into a learner-calibrated, implementation-ready teaching experience."

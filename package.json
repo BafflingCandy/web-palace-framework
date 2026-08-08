@@ -1,0 +1,32 @@
+{
+  "name": "web-palace-framework",
+  "version": "0.1.0",
+  "description": "An empty visual knowledge registry and teaching-website framework for Codex.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "start": "next start",
+    "test": "vitest run",
+    "palace:register": "tsx scripts/register-web-palace.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "motion": "^12.42.2",
+    "next": "^16.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.16.0",
+    "eslint-config-next": "^16.3.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.7.2",
+    "vitest": "^4.1.10"
+  }
+}

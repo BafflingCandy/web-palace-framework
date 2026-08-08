@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web Palace Reviewer"
+  short_description: "Review Web Palace teaching and quality"
+  default_prompt: "Use $web-palace-reviewer to independently verify that this Web Palace teaches its intended learner and meets its approved specification."
