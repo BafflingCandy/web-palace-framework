@@ -78,7 +78,7 @@ After reviewing the architecture:
 
 ```text
 Use $web-palace-builder to implement the approved specification, verify the
-website, and register exactly one brain node.
+website, and register it as a brain node.
 ```
 
 Then run an independent review:
