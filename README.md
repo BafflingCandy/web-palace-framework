@@ -1,13 +1,12 @@
 # Web Palace Framework
 
-Web Palace is an empty visual knowledge registry for websites you want to keep, revisit, and expand. Websites appear as nodes in an animated brain and can be searched or opened from an alphabetical index.
+Web Palace is a thought experiment where you turn your notes into Visually aesthetic websites for better memory retention. It combines the concepts of Notion, Miro and Obsidian where you have a central repository of websites made from the notes provided. 
 
 The template includes three project-local Codex skills that can turn structured notes or documents into teaching-first visual websites, register those websites in the brain, and independently review the result.
 
 ## What is included
 
 - animated brain with deterministic node placement;
-- device-local clock, search, and alphabetical index;
 - an empty typed JSON registry;
 - local Add Node and Remove from Brain controls;
 - safe, idempotent registration shared by the interface and CLI;
@@ -19,7 +18,7 @@ The template includes three project-local Codex skills that can turn structured 
 
 - Node.js 20 or newer;
 - npm 10 or newer;
-- Codex is optional for adding existing websites and recommended for building new teaching palaces.
+- Codex for adding existing websites and recommended for building new teaching palaces.
 
 ## Start locally
 
