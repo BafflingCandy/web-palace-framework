@@ -588,7 +588,10 @@ export function WebPalaceBrain({
   return (
     <main className={`web-palace-main${showIntro && introPhase !== "brain-in" ? " is-intro-active" : ""}`}>
       {showIntro ? <WebPalaceIntro phase={introPhase} onReady={handleIntroReady} /> : null}
-      <section className="web-palace-stage" aria-labelledby="web-palace-title">
+      <section
+        className={`web-palace-stage${webPalaces.length === 0 ? " is-empty" : ""}`}
+        aria-labelledby="web-palace-title"
+      >
         <h1 id="web-palace-title" className="sr-only">Web Palace</h1>
 
         <form className="brain-search" role="search" onSubmit={(event) => event.preventDefault()}>
@@ -632,13 +635,14 @@ export function WebPalaceBrain({
             onPointerUp={handleCanvasClick}
             onClick={handleCanvasClick}
           />
-          {webPalaces.length === 0 ? (
-            <div className="brain-empty-state">
-              <span>Your palace is empty</span>
-              <p>Add an existing website locally, or ask Codex to build and register your first teaching palace.</p>
-            </div>
-          ) : null}
         </div>
+
+        {webPalaces.length === 0 ? (
+          <div className="brain-empty-state">
+            <span>Your palace is empty</span>
+            <p>Add an existing website locally, or ask Codex to build and register your first teaching palace.</p>
+          </div>
+        ) : null}
 
         {activePalace ? (
           <aside className="web-palace-node-card" aria-live="polite">
