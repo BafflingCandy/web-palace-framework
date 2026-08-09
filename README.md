@@ -1,8 +1,14 @@
 # Web Palace Framework
 
+Created and maintained by [Pratyush Nagarad](https://github.com/BafflingCandy).
+
+If Web Palace inspires your own knowledge space, a mention or link back is appreciated. It also helps the community discover what others are building with the framework.
+
 Web Palace is a thought experiment where you turn your notes into Visually aesthetic websites for better memory retention. It combines the concepts of Notion, Miro and Obsidian where you have a central repository of websites made from the notes provided. 
 
 The template includes three project-local Codex skills that can turn structured notes or documents into teaching-first visual websites, register those websites in the brain, and independently review the result.
+
+Web Palace is open source so that people can adapt the framework to their own way of thinking. The original project history, releases, and authorship are recorded in this repository; see [AUTHORS.md](AUTHORS.md) and [CITATION.cff](CITATION.cff).
 
 ## See it in action
 

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use Web Palace in your work, please cite the framework using this metadata."
+type: software
+title: "Web Palace Framework"
+abstract: "An open visual knowledge registry and teaching-website framework for building a personal Web Palace."
+authors:
+  - family-names: "Nagarad"
+    given-names: "Pratyush"
+    alias: "BafflingCandy"
+repository-code: "https://github.com/BafflingCandy/web-palace-framework"
+url: "https://github.com/BafflingCandy/web-palace-framework"
+license: MIT
+version: 0.1.0
+date-released: 2026-08-09
